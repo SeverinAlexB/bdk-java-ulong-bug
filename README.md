@@ -31,5 +31,3 @@ There is a ULong <> int mismatch.
 
 
 `electrum2` fixes that by using `Int` directly in Kotlin.
-
-[QuarkusApp]
