@@ -1,7 +1,8 @@
 # BDK Java ULong bug
 
 ### Kotlin Wrappers
-[BlockchainConfigFactory](src/main/kotlin/com.lipa/BlockchainConfigFactory.kt) contains wrappers.
+- [BlockchainConfigFactory](src/main/kotlin/com.lipa/BlockchainConfigFactory.kt) contains wrappers.
+- [QuarkusApp](src/main/java/com/lipa/QuarkusApp.java) contains the calling java code.
 
 `electrum1` is almost built like the regular wrapper in BDK. It uses ULong instead of UByte though as UByte is a Kotlin datatype.
 
